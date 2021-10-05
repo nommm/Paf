@@ -1,3 +1,3 @@
 
 cd paf
-start cmd.exe /k , venv\Scripts\activate
+start cmd.exe /k echo Edit me

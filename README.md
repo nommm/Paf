@@ -1,15 +1,15 @@
  #**HOW TO USE**
 First!!, you will must to install package by copy this and paste to  Command prompt infoloder
 
-`cd paf
+`cd paf`
 
-pip install virtualenv
+> pip install virtualenv
 
-virtualenv venv
+`virtualenv venv`
 
-venv\Scripts\activate
+`venv\Scripts\activate`
 
-pip install pafy && pip install youtube_dl && pip install pytube `
+`pip install pafy && pip install youtube_dl && pip install pytube `
 
 
 

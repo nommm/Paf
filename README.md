@@ -1,6 +1,6 @@
 ###**HOW TO USE**
  
-#First!!, you will must to install package by copy this and paste to  Command prompt infoloder
+#First!!, you will must to install package by copy this and paste to  Command prompt in foloder
 
 `cd paf`
 

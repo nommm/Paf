@@ -1,7 +1,7 @@
  #**HOW TO USE**
 
 
-`Cick at *run.bat* for open Termianl`
+```Cick at *run.bat* for open Termianl```
 
 `2)Type  *"python ."* or *"python __main__.py"* on Terminal for run script`
 

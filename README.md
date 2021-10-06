@@ -34,6 +34,6 @@ copy here and paste in file
 `Select choose "Video[0]" or "Audio[1]"`
 
 
-This script can download Video or Audio on Youtube by paste URL of Youtube
+This script can download Video and Audio on Youtube by paste URL of Youtube 
 
 FB : nomjued

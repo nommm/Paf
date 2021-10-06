@@ -24,7 +24,7 @@ Install package
 - open command promy/cmd ( ctrl + r and tpye cmd )
 - type here 
   - `pip install virtualenv`
-  - `cd __project path__`( copy path "Paf" project )
+  - `cd Paf\paf`
   - `virtualenv venv`
   - `venv\Scripts\activate`
   - `pip install pytube`
@@ -39,7 +39,7 @@ Install package
 3) if you can see `(venv)` front your path
 4) type `python .` or `python __main__.py`
 
-Example Vedio [click]()
+Example Video [click]()
 
 
 This script can download Video and Audio on Youtube by paste URL of Youtube 

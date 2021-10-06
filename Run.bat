@@ -1,1 +1,1 @@
-cmd /k echo pase here
+start cmd.exe /k echo EDIT ME

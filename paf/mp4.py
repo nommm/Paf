@@ -33,5 +33,4 @@ print("\033[1m" + video.title + "\033[0m")
 print(video.resolution, video.fps)
 print("\nSuccess... \n")
 
-input("Press any key to continue...")
-import Run
+

@@ -30,6 +30,7 @@ copy here and paste in file
 
 `Type in termianl  *"python ."* or *"python __main__.py"* on Terminal for run script`
 (if you can see (venv) front your path it mean alright)
+
 `Select choose "Video[0]" or "Audio[1]"`
 
 

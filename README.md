@@ -44,4 +44,4 @@ Install package
 
 This script can download Video and Audio on Youtube by paste URL of Youtube 
 
-FB : nomjued
+[Discord](https://discord.gg/ZbT2eAhY)

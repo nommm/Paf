@@ -1,6 +1,6 @@
 import pytube
 import os
-import __main__
+
 
 if not os.path.exists('download'):
     os.makedirs('download')
@@ -30,12 +30,5 @@ clearConsole()
 
 
 print("\033[1m" + video.title + "\033[0m")
-
 print(video.resolution, video.fps)
-
 print("\nSuccess... \n")
-
-
-input("Press Enter to continue...")
-
-__main__()

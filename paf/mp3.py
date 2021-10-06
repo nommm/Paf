@@ -48,5 +48,3 @@ print("\033[1m" + video.title + "\033[0m")
 print(video.author)
 print('\nSucess...\n')
 
-input("Press any key to continue...")
-import Run

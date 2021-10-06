@@ -15,7 +15,7 @@ def clearConsole():
 clearConsole()
 
 
-print("\033[1m" + "Youtube Dowload Video" + "\033[0m")
+print("\033[1m" + "Youtube Dowload Audio" + "\033[0m")
 
 url = input("link : ")
 youtube = pytube.YouTube(url)

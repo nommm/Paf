@@ -1,1 +1,1 @@
-Edit me
+echo Edit me

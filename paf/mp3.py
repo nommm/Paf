@@ -1,6 +1,5 @@
-import pafy
+import pytube
 import os
-
 
 if not os.path.exists('download'):
     os.makedirs('download')
@@ -15,36 +14,27 @@ def clearConsole():
 
 clearConsole()
 
-print("\033[1m" + "Youtube Download MP3" + "\033[0m")
+
+print("\033[1m" + "Youtube Dowload Video" + "\033[0m")
 
 url = input("link : ")
-video = pafy.new(url)
+youtube = pytube.YouTube(url)
 
-clearConsole()
+video = youtube.streams.get_audio_only()
 
-audiostreams = video.audiostreams
-for i in audiostreams:
-    print(i.bitrate, i.extension, i.get_filesize())
-  
-best = video.getbestaudio
-
-audiostreams[3].download("download")
-
+video.download('download')
 
 os.chdir('download')
 
-filemp3 = video.title + ".webm"
-filempp3 = video.title + ".m4a"
+x = video.title + ".mp4"
 
-if filemp3 == video.title + ".webm" or filempp3 == video.title + ".m4a" :
+if x == video.title + ".mp4":
     print("no")
-    base = os.path.splitext(filemp3)[0]
-    os.rename(filemp3 or filempp3, base + '.mp3')
-
+    base = os.path.splitext(x)[0]
+    os.rename(x, base + '.mp3')
 
 clearConsole()
 
 print("\033[1m" + video.title + "\033[0m")
-print(video.author)
-print('\nSucess...\n')
 
+print("\nSuccess... \n")

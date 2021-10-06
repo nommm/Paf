@@ -10,7 +10,9 @@
 
 `venv\Scripts\activate`
 
-`pip install pafy && pip install youtube_dl && pip install pytube`
+`pip install youtube_dl `
+
+`pip install pytube`
 
 #Two!!, you must to create **Run.bat**
 

@@ -18,7 +18,7 @@ Download project, There are 3 installation options.
     - click `Download Zip`
 
 _Actually, it can still be installed in a few more ways._
-
+_don't foget install python_
 Install package
 
 - open command promy/cmd ( ctrl + r and tpye cmd )
@@ -38,6 +38,8 @@ Install package
    - `cls`
 3) if you can see `(venv)` front your path
 4) type `python .` or `python __main__.py`
+
+
 
 Example Video [click](https://youtu.be/utafSYhBjfk)
 

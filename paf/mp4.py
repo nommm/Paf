@@ -25,6 +25,16 @@ video = youtube.streams.get_highest_resolution()
 
 video.download('download')
 
+n = video.title + "_video.mp4"
+x = video.title + ".mp4"
+
+if os.path.exists(n):
+    os.remove(n)
+
+if x == video.title + ".mp4":
+    print("Yes")
+    base = os.path.splitext(x)[0]
+    os.rename(x, base + '_video.mp4')
 
 clearConsole()
 

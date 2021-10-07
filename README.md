@@ -34,9 +34,7 @@ Install package
 1) Edit `Run.bat` 
 2) Type 
    - `cd paf`
-   - `"__your path__" "__script path__"`
-   -
-*Ex : "C:\Projects\.project.me\.code\python\dnpaf\paf\venv\Scripts\python.exe" "C:\Projects\.project.me\.code\python\dnpaf\paf\__main__.py"*
+   - `"__your path__" "__script path__"
    - `pause`
 3) if you can see `(venv)` front your path
 4) type `python .` or `python __main__.py`

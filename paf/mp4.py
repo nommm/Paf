@@ -23,7 +23,7 @@ youtube = pytube.YouTube(url)
 
 video = youtube.streams.get_highest_resolution()
 
-video.download(os.chdir('download'))
+video.download('download')
 
 
 clearConsole()

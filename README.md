@@ -32,10 +32,11 @@ Install package
 ### **How to Use**
 
 1) Edit `Run.bat` 
-2) copy here 
+2) Type 
    - `cd paf`
-   - `cmd /k venv\Scripts\activate`
-   - `cls`
+   - `"__your path__" "__script path__"` 
+*Ex : "C:\Projects\.project.me\.code\python\dnpaf\paf\venv\Scripts\python.exe" "C:\Projects\.project.me\.code\python\dnpaf\paf\__main__.py"*
+   - `pause`
 3) if you can see `(venv)` front your path
 4) type `python .` or `python __main__.py`
 

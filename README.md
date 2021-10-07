@@ -34,7 +34,8 @@ Install package
 1) Edit `Run.bat` 
 2) Type 
    - `cd paf`
-   - `"__your path__" "__script path__"` 
+   - `"__your path__" "__script path__"`
+   -
 *Ex : "C:\Projects\.project.me\.code\python\dnpaf\paf\venv\Scripts\python.exe" "C:\Projects\.project.me\.code\python\dnpaf\paf\__main__.py"*
    - `pause`
 3) if you can see `(venv)` front your path

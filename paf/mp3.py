@@ -27,6 +27,9 @@ video.download('download')
 os.chdir('download')
 
 x = video.title + ".mp4"
+n = video.title + "_video.mp3"
+if os.path.exists(n):
+    os.remove(n)
 
 if x == video.title + ".mp4":
     print("no")

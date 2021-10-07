@@ -30,7 +30,7 @@ clearConsole()
 
 
 print("\033[1m" + video.title + "\033[0m")
-print(video.resolution, video.fps)
+print(video.resolution, video.fps + "fps")
 print("\nSuccess... \n")
 
 

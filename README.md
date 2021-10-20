@@ -1,5 +1,7 @@
 ### **HOW TO INSTALL**
 
+_You don't foget install python_
+
 Download project, There are 3 installation options.
 
  1) Git clone (if you install Git)
@@ -18,30 +20,13 @@ Download project, There are 3 installation options.
     - click `Download Zip`
 
 _Actually, it can still be installed in a few more ways._
-_don't foget install python_
+
 Install package
 
-- open command promy/cmd ( ctrl + r and tpye cmd )
-- type here 
-  - `pip install virtualenv`
-  - `cd Paf\paf`
-  - `virtualenv venv`
-  - `venv\Scripts\activate`
-  - `pip install pytube`
-
-### **How to Use**
-
-1) Edit `Run.bat` 
-2) Type 
-   - `cd paf`
-   - `"__your path(\venv\Scripts\python.py)__" "__script path__"
-   - `pause`
-3) if you can see `(venv)` front your path
-4) type `python .` or `python __main__.py`
+- Click at `install.bat`
 
 
 
-Example Video [click](https://youtu.be/utafSYhBjfk)
 
 
 This script can download Video and Audio on Youtube by paste URL of Youtube 

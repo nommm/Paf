@@ -1,1 +1,3 @@
-python __main__
+@echo on
+python __main__.py
+pause
